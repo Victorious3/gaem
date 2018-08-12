@@ -5,14 +5,16 @@ import
   strutils,
   
   # Project imports
-  config,
-  window,
+  ./config,
   
-  gfx/color,
-  gfx/gl/buffer,
-  gfx/gl/shader,
+  ./core/input,
+  ./core/window,
   
-  util/log
+  ./gfx/color,
+  ./gfx/gl/buffer,
+  ./gfx/gl/shader,
+  
+  ./util/log
 
 
 const BG_COLOR = newColorRGB(0x441111)
